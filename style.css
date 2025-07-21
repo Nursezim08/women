@@ -1,0 +1,89 @@
+
+
+.container{
+    width: 1280px;
+    height: 1200px;
+    margin: 0 auto;
+
+}
+.content{
+   width: 1280px ; 
+   height: 500px ;
+   display: flex;
+   justify-content: space-evenly;
+   gap: 25px;
+   flex-wrap: wrap;
+
+}
+.tema{
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-left: 60px;
+}
+.card{
+    width: 330px;
+    height: 500px;
+    line-height: 5px;
+}
+.photo-img{
+    width: 330px;
+    height: 330px;
+    border-radius: 40px;
+
+}
+
+.photo-img:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.card h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: red;
+}
+.card p{
+    font-size: 17px;
+    font-weight: 400px;
+    color: rgb(90, 88, 88);
+    letter-spacing: 1px;
+}
+.card h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+.btn{
+    width: 45px;
+    height: 26px;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    
+}
+.message{
+    width: 50px;
+    height: 50px;
+    margin-left: -200px;
+    margin-top: 0;
+}
+.like{
+    width: 40px;
+    height: 35px;
+    margin-top: 10px;
+    
+}
+.btn-message{
+    display: flex;
+    justify-content: space-between;
+}
+
+.message:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.like:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
