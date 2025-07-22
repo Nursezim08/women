@@ -1,3 +1,4 @@
+
 *{
     margin: 0auto;
     padding: 0auto;
@@ -126,3 +127,30 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.footer {
+    width: 1440px;
+    height: 480px;
+    background-color: #8bde57;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+}
+
+.footer-left img {
+    width: 490px;
+    margin-top: 110px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 150px;
+    margin-top: 120px;
+}
+
+.footer-right ul {
+    list-style: none;
+    line-height: 50px;
+    font-size: 18px;
+}
+
